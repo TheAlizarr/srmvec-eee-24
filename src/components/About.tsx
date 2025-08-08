@@ -5,23 +5,23 @@ const About = () => {
   const features = [
     {
       icon: CircuitBoard,
-      title: "Circuit Design",
-      description: "Master analog and digital circuit design principles with hands-on laboratory experience."
+      title: "EEE Library",
+      description: "Comprehensive collection of electrical engineering textbooks, papers, and study materials."
     },
     {
       icon: Cpu,
-      title: "Microprocessors",
-      description: "Explore embedded systems programming and microcontroller applications."
+      title: "AI Chatbot",
+      description: "24/7 intelligent assistant to help with queries, doubts, and academic guidance."
     },
     {
       icon: Lightbulb,
-      title: "Power Systems",
-      description: "Understand electrical power generation, transmission, and renewable energy systems."
+      title: "Study Resources",
+      description: "Curated notes, previous papers, and reference materials for all EEE subjects."
     },
     {
       icon: Rocket,
-      title: "Innovation Lab",
-      description: "Access cutting-edge equipment and collaborate on research projects."
+      title: "Real-time Updates",
+      description: "Stay informed with the latest academic announcements, events, and opportunities."
     }
   ];
 
@@ -31,13 +31,13 @@ const About = () => {
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-6">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Engineering
+              About Our
             </span>
-            <span className="text-foreground"> Excellence</span>
+            <span className="text-foreground"> Platform</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our EEE program combines theoretical knowledge with practical application, 
-            preparing students for the challenges of modern electrical and electronic engineering.
+            A comprehensive digital hub created by SRM VEC EEE students to support 
+            your academic journey with curated resources, AI assistance, and real-time updates.
           </p>
         </div>
 
@@ -68,15 +68,15 @@ const About = () => {
         <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl md:text-3xl font-bold text-foreground">
-              Why Choose Our EEE Program?
+              Why Use Our Platform?
             </h3>
             <ul className="space-y-4">
               {[
-                "Industry-standard laboratory equipment",
-                "Experienced faculty with research expertise",
-                "Strong industry partnerships and internships",
-                "Focus on emerging technologies like IoT and AI",
-                "Collaborative project-based learning"
+                "Curated by fellow EEE students for students",
+                "AI-powered assistance for instant help",
+                "Comprehensive resource library and materials",
+                "Real-time updates on academic events",
+                "Easy access to all study materials in one place"
               ].map((point, index) => (
                 <li key={index} className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-electric-blue rounded-full animate-glow"></div>
@@ -90,20 +90,20 @@ const About = () => {
             <div className="bg-card/20 backdrop-blur-sm border border-border/20 rounded-3xl p-8 hover:shadow-card transition-all duration-300">
               <div className="grid grid-cols-2 gap-6 text-center">
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-electric-blue">95%</div>
-                  <div className="text-sm text-muted-foreground">Employment Rate</div>
+                  <div className="text-3xl font-bold text-electric-blue">500+</div>
+                  <div className="text-sm text-muted-foreground">Resources</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-electric-blue">4.8/5</div>
-                  <div className="text-sm text-muted-foreground">Student Rating</div>
+                  <div className="text-3xl font-bold text-electric-blue">24/7</div>
+                  <div className="text-sm text-muted-foreground">AI Support</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-electric-blue">20+</div>
-                  <div className="text-sm text-muted-foreground">Industry Partners</div>
+                  <div className="text-3xl font-bold text-electric-blue">100+</div>
+                  <div className="text-sm text-muted-foreground">Active Users</div>
                 </div>
                 <div className="space-y-2">
-                  <div className="text-3xl font-bold text-electric-blue">15</div>
-                  <div className="text-sm text-muted-foreground">Years Excellence</div>
+                  <div className="text-3xl font-bold text-electric-blue">Daily</div>
+                  <div className="text-sm text-muted-foreground">Updates</div>
                 </div>
               </div>
             </div>

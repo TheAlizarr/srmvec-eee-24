@@ -25,26 +25,26 @@ const Hero = () => {
         <div className="animate-fade-in">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              Electrical &
+              SRM VEC EEE
             </span>
             <br />
             <span className="text-foreground">
-              Electronic Engineering
+              Student Hub
             </span>
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto mb-8 leading-relaxed">
-            Innovating the future through cutting-edge technology, circuit design, 
-            and electronic systems. Join our engineering excellence journey.
+            Your personal academic companion for EEE studies. Access resources, 
+            stay updated, and excel in your electrical engineering journey.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12">
             <Button variant="hero" size="lg" className="group">
-              Explore Projects
+              EEE Library
               <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button variant="tesla" size="lg">
-              Course Materials
+              AI Chatbot
             </Button>
           </div>
         </div>
@@ -54,24 +54,24 @@ const Hero = () => {
           <div className="group hover:scale-105 transition-transform duration-300">
             <div className="bg-card/10 backdrop-blur-sm border border-border/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
               <Zap className="h-8 w-8 text-electric-blue mx-auto mb-4 animate-glow" />
-              <h3 className="text-2xl font-bold text-foreground mb-2">50+</h3>
-              <p className="text-muted-foreground">Active Projects</p>
+              <h3 className="text-2xl font-bold text-foreground mb-2">100+</h3>
+              <p className="text-muted-foreground">Study Materials</p>
             </div>
           </div>
           
           <div className="group hover:scale-105 transition-transform duration-300">
             <div className="bg-card/10 backdrop-blur-sm border border-border/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
               <BookOpen className="h-8 w-8 text-electric-blue mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-2">200+</h3>
-              <p className="text-muted-foreground">Study Resources</p>
+              <h3 className="text-2xl font-bold text-foreground mb-2">24/7</h3>
+              <p className="text-muted-foreground">AI Assistant</p>
             </div>
           </div>
           
           <div className="group hover:scale-105 transition-transform duration-300">
             <div className="bg-card/10 backdrop-blur-sm border border-border/20 rounded-2xl p-6 hover:shadow-card transition-all duration-300">
               <Users className="h-8 w-8 text-electric-blue mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-foreground mb-2">120+</h3>
-              <p className="text-muted-foreground">Students</p>
+              <h3 className="text-2xl font-bold text-foreground mb-2">Daily</h3>
+              <p className="text-muted-foreground">Updates</p>
             </div>
           </div>
         </div>

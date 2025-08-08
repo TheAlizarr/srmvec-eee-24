@@ -6,11 +6,13 @@ const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { label: "Home", href: "#home" },
-    { label: "About", href: "#about" },
-    { label: "Projects", href: "#projects" },
-    { label: "Resources", href: "#resources" },
-    { label: "Contact", href: "#contact" },
+    { label: "Home", href: "/" },
+    { label: "About", href: "/about" },
+    { label: "EEE Library", href: "/eee-library" },
+    { label: "General Library", href: "/general-library" },
+    { label: "Updates", href: "/updates" },
+    { label: "AI Chatbot", href: "/ai-chatbot" },
+    { label: "Contact", href: "/contact" },
   ];
 
   return (
@@ -20,10 +22,10 @@ const Navigation = () => {
           {/* Logo */}
           <div className="flex items-center">
             <span className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              EEE
+              SRM VEC
             </span>
             <span className="ml-2 text-foreground font-medium hidden sm:inline">
-              Engineering Class
+              EEE Students
             </span>
           </div>
 
@@ -39,7 +41,7 @@ const Navigation = () => {
               </a>
             ))}
             <Button variant="tesla" size="sm">
-              Student Portal
+              Join Community
             </Button>
           </div>
 
@@ -69,7 +71,7 @@ const Navigation = () => {
               </a>
             ))}
             <Button variant="tesla" size="sm" className="w-full mt-4">
-              Student Portal
+              Join Community
             </Button>
           </div>
         )}
